@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Зворотній зв'язок</title>
+</head>
+<body>
+<nav>
+    <a href="index.html">
+        Назад до головної сторінки
+    </a>
+    <br>
+    <br>
+    <a href="MySkills.html">
+        Перейти до поїх навичок
+    </a>
+</nav>
+<h1>Зворотній зв'язок</h1>
+<header>
+    <section>
+        <h3>Будьласка заповніть поля, щоб зв'язатися зі мною</h3>
+        <form>
+            <div id="nameInputContainer">
+                <span>Введіть ваше ім'я:</span>
+                <input id="nameInput" placeholder="Наприклад : Іван Іван" name="name">
+            </div>
+            <br>
+            <div id="phoneInputContainer">
+                <span>Введіть ваш номер телофону:</span>
+                <input id="phoneInput"  name="phone" type="number">
+            </div>
+            <br>
+            <div id="emailInputContainer">
+                <span>Введіть ваш email:</span>
+                <input id="emailInput"  name="email" type="email">
+            </div>
+            <br>
+            <div id="replyOptionContainer">
+                <span>Як ви хочете зв'язатись зі мною:</span>
+                <select id="replyOptions:">
+                    <option>по Email</option>
+                    <option>по Телефону</option>
+                    <option>по Пошті</option>
+                </select>
+            </div>
+            <br>
+            <div id="replyOptionRadioContainer">
+                <span>З чим ви прийшли до мене:</span>
+                <br>
+                <input type="radio" id="complain" name="complainInquiryType">
+                <label for="complain">пропозиція</label>
+                <br>
+                <input type="radio" id="project" name="projectInquiryType">
+                <label for="project" >менторство</label>
+                <br>
+                <input type="radio" id="coaching" name="coachingInquiryType">
+                <label for="coaching">мотивація</label>
+                <br>
+            </div>
+            <br>
+            <div id="inquiryTextAreaContainer">
+                <span>Введіть ваше повідомлення:</span>
+                <textarea></textarea>
+            </div>
+            <br>
+            <button type="submit">Відправити форму</button>
+        </form>
+    </section>
+</header>
+</body>
+</html>
